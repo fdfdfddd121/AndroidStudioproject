@@ -13,18 +13,112 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="some random title"
-            android:textSize="20sp"
+            android:textSize="30dp"
             android:gravity="center_horizontal"
-            android:layout_margin="20dp" />
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_margin="10dp" />
+
+    <EditText
+            android:id="@+id/nametext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter a name"
+            android:inputType="text" />
 
     <Button
-            android:id="@+id/button_id"
+            android:id="@+id/namebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="push to set name as title"
+            android:textSize="20sp"
+            android:layout_margin="5dp" />
+
+    <EditText
+            android:id="@+id/phonetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter a phone number"
+            android:inputType="phone" />
+
+    <Button
+            android:id="@+id/phonebutton"
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="push to set title as phone number"
+            android:textSize="20sp"
+            android:layout_margin="5dp" />
+
+    <EditText
+            android:id="@+id/emailtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter an email"
+            android:inputType="textEmailAddress"/>
+
+    <Button
+            android:id="@+id/emailbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="push to set title as email"
+            android:textSize="20sp"
+            android:layout_margin="5dp" />
+
+    <EditText
+            android:id="@+id/redtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter red value"
+            android:inputType="numberSigned"
+            android:maxLength="3"
+            />
+
+    <Button
+            android:id="@+id/redbutton"
+            android:layout_width="334dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="push to change title's red value"
+            android:textSize="20sp"
+            android:layout_margin="5dp" />
+
+    <EditText
+            android:id="@+id/greentext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter green value"
+            android:inputType="numberSigned"
+            android:maxLength="3"
+            />
+
+    <Button
+            android:id="@+id/greenbutton"
             android:layout_width="357dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="push to change text"
+            android:text="push to change title's green value"
             android:textSize="20sp"
-            android:layout_margin="20dp"
+            android:layout_margin="5dp" />
+
+    <EditText
+            android:id="@+id/bluetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter blue value"
+            android:inputType="numberSigned"
+            android:maxLength="3"
             />
+
+    <Button
+            android:id="@+id/bluebutton"
+            android:layout_width="357dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="push to change title's blue value"
+            android:textSize="20sp"
+            android:layout_margin="5dp" />
 
 </LinearLayout>
